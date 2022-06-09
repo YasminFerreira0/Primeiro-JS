@@ -1,6 +1,6 @@
 console.log("Trabalhando com Atribuição de Variaveis");
 
-const idade = 18;
+//const idade = 18;
 const primeiroNome = "Yasmin";
 //let nome = "Yasmin";//variavel comum
 const sobrenome = "Ferreira";
@@ -20,3 +20,7 @@ console.log(`Meu nome é ${nomeCompleto}`);
 
 //na linguaguem JavaScreipt variaveis podem ser sobreescritas de forma muito flexifel comparada a outra linguagens, podendo uma variavel do tipo texto poder ser reescrita como tipo numero. Entrtando, não é uma boa prativa ficar reatribuindo variaveis, é e recomendado usar variaveis do tipo const
 
+let idade; //declarando variável
+idade = 17; //atribuindo valor
+idade = idade + 1; //reatribuindo valor
+console.log(idade);
