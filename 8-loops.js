@@ -7,7 +7,7 @@ const listaDeDestinos = new Array(
 const idadeComprador = 18;
 const estaAcompanhada = false;
 let temPassagemComprada = false;
-const destino = "Rio de Janeiro";
+const destino = "Salvador";
 
 console.log("Destinos Possiveis:\n");
 console.log(listaDeDestinos);
@@ -39,13 +39,22 @@ let contador = 0;
 
     //contador += 1; imprime o valor do contador e achenta mais um a cada verificão.
 //}
+let destinoExiste = false;
 
 while(contador < 3) {
     if(listaDeDestinos[contador] == destino){
-        console.log("Destino Existe");
-    }else{
-        console.log("Destino não Existe");
-    }
+        //console.log("Destino Existe");
+        destinoExiste = true;
+        break;//se a condição for comprida ele para de rodar o loop e passa para a priximo codigo. Ao colocarmos um break dentro do laço estamos falando para o interpretador que quando ele chegar nessa linha ele deve sair do laço independentemente de outras condições.
+    } 
+        //else{
+        // console.log("Destino não Existe");
+            //destinoExiste = false;
+        //}
     contador += 1;
 }
 
+//Breakpoint = ponto de parada, quando o codigo estiver sendo executado ele irá parar de executadar no local marcado
+//o Debug e feito no vscode 
+
+console.log("\nDestino Existe: ", destinoExiste);
