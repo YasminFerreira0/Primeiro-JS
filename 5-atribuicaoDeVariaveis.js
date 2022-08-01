@@ -24,3 +24,4 @@ let idade; //declarando variável
 idade = 17; //atribuindo valor
 idade = idade + 1; //reatribuindo valor
 console.log(idade);
+

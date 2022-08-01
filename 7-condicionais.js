@@ -40,3 +40,4 @@ if(idadeComprador >=18 && temPassagemComprada){//operador &&:"e"
     console.log("Você não pode embarcar\n");
 }
 
+

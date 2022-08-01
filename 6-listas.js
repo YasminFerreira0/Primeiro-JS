@@ -16,3 +16,4 @@ listaDeDestinos.splice(1, 1);//.splice: deleta um item da Array, sendo necessari
 console.log(listaDeDestinos);
 
 console.log(listaDeDestinos[1]); //o couchetes "[]": especifica um item em uma posição especifica, imprimindo assim somente aquele item
+

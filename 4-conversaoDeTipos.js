@@ -9,3 +9,4 @@ console.log("7" / "2");// trabalha com numeros inteiros e decimais- ponto flutua
 
 
 console.log("Yasmin" / "2"); //retorna NaN- Not a Number
+

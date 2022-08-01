@@ -58,3 +58,15 @@ while(contador < 3) {
 //o Debug e feito no vscode 
 
 console.log("\nDestino Existe: ", destinoExiste);
+
+if(destinoExiste && podeComprar){
+    console.log("Boa Viagem!!");
+}else{
+    console.log("Desculpe, tivemos um erro!")
+}
+
+for(let cont = 0 ; cont < 3 ; cont ++){//o ponto e virgula serve como divisor,primeiro valor serva para inicializar o contador; o sendo falor e a condição do loop; o terceiro e a variação da variavel| --incialização -- condicional -- incremento.
+    if(listaDeDestinos[contador] == destino){
+        destinoExiste = true;
+    } 
+}
